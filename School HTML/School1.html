@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>School Website</title>
+    
+    <link rel="stylesheet"type="text/css" href="school1.css">    
+
+</head>
+<body>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "a2f226bd-7f40-4f90-8eec-7c579ec1ed5c", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "3232c16d-60bd-4f63-8e88-9dbfbe058d2a", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="logo.png"alt="Logo">
+        </div>
+<ul class="nav-area">
+<li><a href="">Home</a></li>
+<li><a href="pro_g.html">Gallery</a></li>
+<li><a href="project.html">Why Choose Us</a></li>
+<li><a href="About us.html">About Us</a></li>
+<li><a href="contact.html">Admission Enquiry</a></li>
+</ul>
+</div>
+<div class="welcome-text">
+    <article>People who avoid failure also avoid success.So turn all your obstacles into path!!!</article>
+<a href="contac us.html">Contact</a>
+    </div>
+</header>
+
+</body>
+</html>

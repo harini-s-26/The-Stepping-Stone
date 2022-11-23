@@ -1,0 +1,111 @@
+/* Showcase */
+#showcase1 {
+    background:url("col.png");
+    float:center;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 650px;
+}
+#showcase1 .showcase-container h2 {
+    margin-bottom: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing:0.1em;
+    text-align: left;
+    
+}
+
+#showcase1.showcase-container h4{
+	font-size: 80px;
+        font-weight:bold;
+ }
+
+#showcase1 .showcase-container h3{
+width:auto;
+    font-size: 24px;
+margin:5px 0px 0px;
+font-weight:lighter;
+    text-align: left;
+}
+#showcase {
+	background-color: #2941ab;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-position: right center top;
+		padding-bottom: 190px;
+		padding-top: 300px;
+}
+#showcase .showcase-container h2 {
+    margin-bottom:100px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing:0.1em;
+    text-align: left;
+}
+
+#showcase.showcase-container h1{
+	font-size: 80px;
+        font-weight:bold;
+ }
+
+#showcase .showcase-container h3{
+width:auto;
+    font-size: 24px;
+margin:5px 0px 0px;
+font-weight:lighter;
+    text-align: left;
+
+}
+.btn-holder{
+    width: 500px;
+    margin: 0px auto;
+}
+.btn-1{
+    border: none;
+    background-color:#4267B2;
+    padding: 1px 0px;
+    margin-top: -34px;
+    color: #fff;
+    border-radius: 100px;
+    font-weight: bold;
+    text-form: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    margin-left: -320px;
+	 cursor: pointer; 
+	
+
+    
+}
+.terms {
+  display: flex;
+  margin-bottom: 20rem;
+  position: center;
+}
+
+.hero-terms-link,
+.hero-terms-link + span,
+.terms > span {
+  font-size: 1.2rem;
+  color: var(--blue);
+}
+
+.hero-terms-link,
+.terms > span {
+  margin-right: 0.2rem;
+}
+
+.hero-terms-link {
+  text-decoration: underline;
+  transition: all 0.6s ease;
+}
+
+.hero-terms-link:hover {
+  color: var(--#2941ab);
+}
